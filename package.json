@@ -25,11 +25,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/VladikDragon/dsh-plugins.git"
+    "url": "git+https://github.com/VladikDragon/dsh-session-full-access-badge.git"
   },
-  "homepage": "https://github.com/VladikDragon/dsh-plugins#readme",
+  "homepage": "https://github.com/VladikDragon/dsh-session-full-access-badge#readme",
   "bugs": {
-    "url": "https://github.com/VladikDragon/dsh-plugins/issues"
+    "url": "https://github.com/VladikDragon/dsh-session-full-access-badge/issues"
   },
   "dsh": {
     "manifestVersion": 1,

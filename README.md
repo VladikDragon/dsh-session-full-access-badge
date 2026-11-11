@@ -1,7 +1,7 @@
 # dsh-session-full-access-badge
 
-[![release](https://img.shields.io/github/v/release/VladikDragon/dsh-plugins?label=release)](https://github.com/VladikDragon/dsh-plugins/releases)
-[![license](https://img.shields.io/github/license/VladikDragon/dsh-plugins)](LICENSE)
+[![release](https://img.shields.io/github/v/release/VladikDragon/dsh-session-full-access-badge?label=release)](https://github.com/VladikDragon/dsh-session-full-access-badge/releases)
+[![license](https://img.shields.io/github/license/VladikDragon/dsh-session-full-access-badge)](LICENSE)
 
 Значок **«Полный доступ»** рядом со временем обновления в списке сессий боковой панели
 DeepSeek Harness.
@@ -29,7 +29,7 @@ DeepSeek Harness.
 Плагин ставится в профиль как обычный пакет:
 
 ```
-dsh plugin --profile desktop add github:VladikDragon/dsh-plugins
+dsh plugin --profile desktop add github:VladikDragon/dsh-session-full-access-badge
 ```
 
 После установки добавьте его в `dsh.profile.bundles` профиля — через менеджер плагинов
@@ -46,8 +46,8 @@ dsh plugin --profile desktop add github:VladikDragon/dsh-plugins
 Локальная разработка — из клона:
 
 ```
-git clone https://github.com/VladikDragon/dsh-plugins
-dsh plugin --profile desktop add file:C:/path/to/dsh-plugins
+git clone https://github.com/VladikDragon/dsh-session-full-access-badge
+dsh plugin --profile desktop add file:C:/path/to/dsh-session-full-access-badge
 ```
 
 Перезапуск приложения нужен только при добавлении нового **пакета**. Правки уже
