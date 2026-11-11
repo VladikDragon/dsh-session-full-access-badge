@@ -1,0 +1,5 @@
+# The Full access mark bundle patch: one Loader row whose browser half
+# registers into the Session row's trailing seat declared by ui-workspace.
+- insert:
+    - id: session-full-access-badge
+      name: dsh-session-full-access-badge

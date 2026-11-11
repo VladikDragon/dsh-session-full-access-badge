@@ -1,0 +1,47 @@
+{
+  "name": "dsh-session-full-access-badge",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Shows the Full access mark beside the update time of every session row whose permission preset is Full access (danger-full-access).",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "README.md"
+  ],
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "cordis",
+    "plugin",
+    "sidebar",
+    "permissions"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VladikDragon/dsh-plugins.git"
+  },
+  "homepage": "https://github.com/VladikDragon/dsh-plugins#readme",
+  "bugs": {
+    "url": "https://github.com/VladikDragon/dsh-plugins/issues"
+  },
+  "dsh": {
+    "manifestVersion": 1,
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-workspace"
+      ]
+    }
+  }
+}
